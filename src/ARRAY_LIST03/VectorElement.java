@@ -42,7 +42,7 @@ public class VectorElement {
 		System.out.println("Updated capacity after increment is: "+vec.capacity());
 
 		// Display the Vector elements
-		Enumeration en = vec.elements();
+		Enumeration<String> en = vec.elements();
 		System.out.println("\nSports Elements are:");
 		while(en.hasMoreElements())
 			System.out.print(en.nextElement() + " ");

@@ -9,6 +9,8 @@ import java.util.Scanner;
 
 public class ReverseOrderNumbers {
 
+	private static Scanner scan;
+
 	public static void main(String[] args) {
 
 		//***********************************************************
@@ -16,7 +18,7 @@ public class ReverseOrderNumbers {
 		// array, then prints them in the opposite order.
 		//***********************************************************
 		
-		Scanner scan = new Scanner (System.in);
+		scan = new Scanner (System.in);
 		double[] numbers = new double[8];
 		System.out.println ("The memory size of the array: " + numbers.length);
 		for (int index = 0; index < numbers.length; index++)

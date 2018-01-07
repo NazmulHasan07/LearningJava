@@ -9,6 +9,7 @@ import  java.io.*;
 
 public class EnterNumbers {
 
+	@SuppressWarnings("deprecation")
 	public static void main(String args[]) throws IOException {
 		DataInputStream inData = new DataInputStream(System.in);
 		System.out.print("Please enter your favorite number : ");
